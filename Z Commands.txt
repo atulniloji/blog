@@ -1,0 +1,37 @@
+https://rubyinstaller.org/downloads/
+download ruby
+install ruby
+Check Ruby executable to your path
+and associating .rb and .rbw files with ruby installation and click install
+finally check the ridk install checkbox.
+-------------------------------------------------------------------------------------------------------
+From CMD click 1 to install msys2 base installation uncheck run msys2.
+Then click 2 for system update.
+Then finally click 3 for mingw develpoment.
+------------------------------------------------------------------------------------------------------
+Then open CMD
+ruby -v
+gem -v
+final : gem install jekyll bundler
+jekyll -v: jekyll 4.2.2
+------------------------------------------------------------------------------------------------------
+Open cmd in proper folder
+type: jekyll new ga_blog
+------------------------------------------------------------------------------------------------------
+move to folder: cd ga_blog/
+starts site: bundle exec jekyll serve
+------------------------------------------------------------------------------------------------------
+Hosting a site on a github page:
+repo name ga_blog with no readme file
+Inside config.yml
+variable baseurl: "ga_blog" (Enter github repo name)
+git commands:
+git init
+git checkout -b gh-pages(branch for github pages branch)
+git status
+git add .
+git commit -m "message"
+git remote add origin 'link'
+git push origin gh-pages
+--------------------------------------------------------------------------------------------------------
+https://atulniloji.github.io/blog/
